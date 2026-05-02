@@ -1,0 +1,78 @@
+Build a modern, high-end website for a graphic novel IP called Heroes of Hellscape.
+
+The site should feel cinematic, mysterious, and premium, inspired by the tone and structure of Strangeland Comics and Sigma Comics, but not copy them. It must feel like a next-gen entertainment IP, not a small indie comic page.
+
+Tech Requirements
+Framework: Next.js (App Router)
+Styling: Tailwind CSS
+Animations: Framer Motion
+Fully responsive (mobile-first)
+Dark mode default
+Clean, scalable component structure
+Optimized for performance and SEO
+Core Experience Direction
+Dark, immersive, cinematic UI
+Strong typography, minimal clutter
+Smooth transitions and subtle parallax
+Focus on storytelling and worldbuilding
+Feels closer to a premium game or film IP than a comic store
+Pages to Build
+1. Homepage
+Fullscreen hero section with:
+Title: “Heroes of Hellscape”
+Tagline: “Monsters were never myths. They are the connective tissue of history.”
+Background: animated or parallax visual (dark, cosmic, historical blend)
+Sections:
+About the universe
+Featured episode: “Fremdling”
+Preview images (comic panels)
+CTA: “Read Episode 1” / “Join the Launch”
+Smooth scroll and section transitions
+2. About Page
+Explain the concept:
+Entities exist across time under different names
+They influenced history across cultures
+Keep it concise, mysterious, not over-explained
+Include visual separators and subtle animations
+3. Episodes Page
+Grid layout of episodes
+Each episode card includes:
+Title
+Time period
+Short hook
+Cover image
+First episode: “Fremdling”
+Hover effects with motion
+4. Episode Detail Page (Fremdling)
+Cinematic header
+Story summary
+Visual gallery (comic panels)
+CTA: “Read / Back on Kickstarter”
+Optional: embedded video or interactive preview
+5. Newsletter / CTA Section
+Simple email capture
+Copy focused on early access and exclusive content
+Integrated mock backend (Supabase-ready structure)
+Design System
+Colors:
+Black / deep charcoal base
+Subtle accent: muted red or pale gold
+Typography:
+Bold cinematic headline font
+Clean sans-serif body
+UI:
+Large margins, breathing space
+No clutter, no cheap gradients
+Minimal but sharp
+Components to Create
+Navbar (transparent → solid on scroll)
+Footer (minimal, clean)
+EpisodeCard
+HeroSection
+GalleryGrid
+CTASection
+Extra (important)
+Add placeholder assets but structure everything so real art can drop in easily
+Use reusable components
+Keep code clean and modular
+Include comments explaining structure
