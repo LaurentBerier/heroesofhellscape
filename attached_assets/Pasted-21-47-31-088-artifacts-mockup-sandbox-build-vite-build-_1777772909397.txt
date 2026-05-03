@@ -1,0 +1,38 @@
+21:47:31.088 
+artifacts/mockup-sandbox build$ vite build
+21:47:31.402 
+artifacts/mockup-sandbox build: failed to load config from /vercel/path0/artifacts/mockup-sandbox/vite.config.ts
+21:47:31.404 
+artifacts/mockup-sandbox build: error during build:
+21:47:31.404 
+artifacts/mockup-sandbox build: Error: PORT environment variable is required but was not provided.
+21:47:31.406 
+artifacts/mockup-sandbox build:     at file:///vercel/path0/artifacts/mockup-sandbox/node_modules/.vite-temp/vite.config.ts.timestamp-1777772851258-ee7a9ef078f57.mjs:145:9
+21:47:31.406 
+artifacts/mockup-sandbox build:     at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+21:47:31.406 
+artifacts/mockup-sandbox build:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:661:26)
+21:47:31.406 
+artifacts/mockup-sandbox build:     at async loadConfigFromBundledFile (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35920:12)
+21:47:31.406 
+artifacts/mockup-sandbox build:     at async bundleAndLoadConfigFile (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35808:17)
+21:47:31.407 
+artifacts/mockup-sandbox build:     at async loadConfigFromFile (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35775:42)
+21:47:31.407 
+artifacts/mockup-sandbox build:     at async resolveConfig (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:35424:22)
+21:47:31.408 
+artifacts/mockup-sandbox build:     at async createBuilder (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/chunks/config.js:33879:19)
+21:47:31.408 
+artifacts/mockup-sandbox build:     at async CAC.<anonymous> (file:///vercel/path0/node_modules/.pnpm/vite@7.3.2_@types+node@25.3.5_jiti@2.6.1_lightningcss@1.31.1_tsx@4.21.0_yaml@2.8.2/node_modules/vite/dist/node/cli.js:629:10)
+21:47:31.423 
+artifacts/mockup-sandbox build: Failed
+21:47:31.435 
+/vercel/path0/artifacts/mockup-sandbox:
+21:47:31.435 
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/mockup-sandbox@2.0.0 build: `vite build`
+21:47:31.435 
+Exit status 1
+21:47:31.458 
+ ELIFECYCLE  Command failed with exit code 1.
+21:47:31.472 
+Error: Command "pnpm run build" exited with 1
