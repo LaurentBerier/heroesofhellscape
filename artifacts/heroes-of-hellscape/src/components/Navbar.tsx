@@ -22,6 +22,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/about", label: "The Lore" },
     { href: "/episodes", label: "Episodes" },
+    { href: "/blog", label: "Dispatches" },
   ];
 
   return (

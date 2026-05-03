@@ -9,6 +9,8 @@ import HomePage from "@/pages/home";
 import AboutPage from "@/pages/about";
 import EpisodesPage from "@/pages/episodes";
 import FremdlingPage from "@/pages/fremdling";
+import BlogPage from "@/pages/blog";
+import BlogPostPage from "@/pages/blog-post";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +21,8 @@ function Router() {
       <Route path="/about" component={AboutPage} />
       <Route path="/episodes" component={EpisodesPage} />
       <Route path="/episodes/the-fremdling" component={FremdlingPage} />
+      <Route path="/blog" component={BlogPage} />
+      <Route path="/blog/:slug" component={BlogPostPage} />
       <Route component={NotFound} />
     </Switch>
   );
