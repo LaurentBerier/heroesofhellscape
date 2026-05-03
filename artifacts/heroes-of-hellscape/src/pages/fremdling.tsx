@@ -75,7 +75,8 @@ export default function FremdlingPage() {
                 className="w-full md:w-3/5 space-y-8"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, delay: 0.2 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
               >
                 <div className="space-y-4 text-lg text-muted-foreground font-serif leading-relaxed">
                   <p>
