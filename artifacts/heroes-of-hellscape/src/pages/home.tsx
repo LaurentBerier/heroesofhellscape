@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
 // Import assets
-import coverImage from "@assets/Cover_1777762956961.jpg";
+import coverImage from "@assets/TheFremdling_CoverPages_ProductShot_1777762707458.png";
 import panel1 from "@assets/image_1777762897802.png";
 import panel2 from "@assets/image_1777762884788.png";
 import panel3 from "@assets/image_1777762828645.png";
