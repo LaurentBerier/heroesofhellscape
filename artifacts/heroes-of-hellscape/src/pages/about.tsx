@@ -8,6 +8,10 @@ import { motion } from "framer-motion";
 import panel1 from "@assets/image_1777762884788.png";
 import panel2 from "@assets/image_1777762897802.png";
 import spread from "@assets/TheFremdling_Pages_ProductShot_1777762707458.png";
+import felix from "@assets/Felix_1777771245073.jpeg";
+import laurent from "@assets/Laurent_1777771245074.JPG";
+import bts1 from "@assets/BTS_1777771245073.jpg";
+import bts2 from "@assets/BTS2_1777771245074.jpg";
 
 export default function AboutPage() {
   return (
@@ -129,6 +133,114 @@ export default function AboutPage() {
                 <img src={panel2} alt="Atmosphere" className="w-full h-full object-cover sepia-[0.3]" />
                 <div className="absolute inset-0 bg-black/40"></div>
               </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Creators */}
+      <section className="py-24 border-t border-border/30">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <p className="text-accent tracking-[0.4em] uppercase text-sm mb-4">The Team</p>
+            <h2 className="text-4xl md:text-5xl font-cinzel">The Minds Behind the Myth</h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            {/* Felix */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="flex flex-col items-center text-center group"
+              data-testid="bio-card-felix"
+            >
+              <div className="relative mb-6 w-48 h-48 rounded-full overflow-hidden border-2 border-border/50 group-hover:border-primary/60 transition-colors duration-500 shadow-[0_0_40px_rgba(0,0,0,0.6)]">
+                <img
+                  src={felix}
+                  alt="Felix"
+                  className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              </div>
+              <h3 className="text-2xl font-cinzel mb-1 text-foreground">Felix</h3>
+              <p className="text-accent tracking-widest uppercase text-xs mb-4">Writer & Creator</p>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+                The architect of the Hellscape universe. Felix built the mythology, lore, and the interconnected entity system that ties every era of history together.
+              </p>
+            </motion.div>
+
+            {/* Laurent */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+              className="flex flex-col items-center text-center group"
+              data-testid="bio-card-laurent"
+            >
+              <div className="relative mb-6 w-48 h-48 rounded-full overflow-hidden border-2 border-border/50 group-hover:border-primary/60 transition-colors duration-500 shadow-[0_0_40px_rgba(0,0,0,0.6)]">
+                <img
+                  src={laurent}
+                  alt="Laurent"
+                  className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              </div>
+              <h3 className="text-2xl font-cinzel mb-1 text-foreground">Laurent</h3>
+              <p className="text-accent tracking-widest uppercase text-xs mb-4">Artist & Co-Creator</p>
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+                Laurent brings the darkness to life — every panel, every shadow, every moment of visceral tension rendered with precision and intention.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Behind the Scenes */}
+      <section className="py-16 pb-28">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <p className="text-accent tracking-[0.4em] uppercase text-sm mb-4">Process</p>
+            <h2 className="text-3xl md:text-4xl font-cinzel">Behind the Pages</h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.97 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              className="relative rounded-lg overflow-hidden aspect-video border border-border/40 shadow-2xl group"
+              data-testid="bts-image-1"
+            >
+              <img src={bts1} alt="Artist at work on tablet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+              <p className="absolute bottom-4 left-4 text-sm text-foreground/80 tracking-widest uppercase font-cinzel">Inking the Void</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.97 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.15 }}
+              className="relative rounded-lg overflow-hidden aspect-video border border-border/40 shadow-2xl group"
+              data-testid="bts-image-2"
+            >
+              <img src={bts2} alt="Artist coloring panels in Photoshop" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+              <p className="absolute bottom-4 left-4 text-sm text-foreground/80 tracking-widest uppercase font-cinzel">Painting the Darkness</p>
             </motion.div>
           </div>
         </div>
