@@ -9,7 +9,7 @@ import panel1 from "@assets/image_1777762884788.png";
 import panel2 from "@assets/image_1777762897802.png";
 import spread from "@assets/TheFremdling_Pages_ProductShot_1777762707458.png";
 import felix from "@assets/Felix_1777771245073.jpeg";
-import laurent from "@assets/Laurent_1777771245074.JPG";
+import laurent from "@assets/Laurent2_1777771521199.jpg";
 import bts1 from "@assets/BTS_1777771245073.jpg";
 import bts2 from "@assets/BTS2_1777771245074.jpg";
 
